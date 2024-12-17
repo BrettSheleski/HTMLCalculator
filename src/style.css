@@ -1,0 +1,36 @@
+main{
+    width: 400px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.d-flex > *{
+    flex: 1;
+}
+
+button{
+    box-sizing: border-box;
+    border: black solid 1px;
+    margin: 2px;
+    padding: 3px;
+    font-size: large;
+}
+
+button[type=submit]{
+    background-color: blue;
+    color: white;
+}
+
+input{
+    width: 100%;
+    font-size: larger;
+    padding: 5px;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+button.num{
+    background-color: lightblue;
+}

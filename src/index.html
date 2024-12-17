@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <main>
+            <h1>Calculator</h1>
+            <div>
+                <input type="text" id="result" />
+            </div>
+            <div class="d-flex">
+                <button type="button" onclick="percent()">
+                    %
+                </button>
+                <button type="button" onclick="clearEntry()">
+                    CE
+                </button>
+                <button type="button" onclick="clear()">
+                    C
+                </button>
+                <button type="button" onclick="backspace()">
+                    &lt;-
+                </button>
+            </div>
+            <div class="d-flex">
+                <button type="button" onclick="inverse()">
+                   1/x
+                </button>
+                <button type="button" onclick="square()">
+                    X^2
+                </button>
+                <button type="button" onclick="squareRoot()">
+                    sqrt
+                </button>
+                <button type="button" onclick="divide()">
+                    /
+                </button>
+            </div>
+            <div class="d-flex">
+                <button type="button" class="num" onclick="numberPress(7)">
+                    7
+                </button>
+                <button type="button" class="num" onclick="numberPress(8)">
+                    8
+                </button>
+                <button type="button" class="num" onclick="numberPress(9)">
+                    9
+                </button>
+                <button type="button" onclick="multiply()">
+                    X
+                </button>
+            </div>
+            <div class="d-flex">
+                <button type="button" class="num" onclick="numberPress(4)">
+                    4
+                </button>
+                <button type="button" class="num" onclick="numberPress(5)">
+                    5
+                </button>
+                <button type="button" class="num" onclick="numberPress(6)">
+                    6
+                </button>
+                <button type="button" onclick="subtract()">
+                    -
+                </button>
+            </div>
+            <div class="d-flex">
+                <button type="button" class="num" onclick="numberPress(1)">
+                    1
+                </button>
+                <button type="button" class="num" onclick="numberPress(2)">
+                    2
+                </button>
+                <button type="button" class="num" onclick="numberPress(3)">
+                    3
+                </button>
+                <button type="button" onclick="add()">
+                    +
+                </button>
+            </div>
+            <div class="d-flex">
+                <button type="button" onclick="plusMinus()">
+                    +/-
+                </button>
+                <button type="button" class="num" onclick="numberPress(0)">
+                    0
+                </button>
+                <button type="button" onclick="decimal()">
+                    .
+                </button>
+                <button type="submit" onclick="execute()">
+                    =
+                </button>
+            </div>
+        </main>
+        
+        <script type="text/javascript" src="calculator.js" ></script>
+    </body>
+</html>
